@@ -1,24 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
-        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="u_approval" type="string">
             <choice>
-                <element label="Human Resources" sequence="0" value="hr"/>
-                <element label="Facilities" sequence="1" value="facilities"/>
-                <element label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="notrequested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element label="Assigned to" max_length="32" name="u_assigned_tp" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Cost" mandatory="true" max_length="20" name="u_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="local" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
-                <element label="Human Resources 1" sequence="0" value="hr1"/>
-                <element label="Human Resources 2" sequence="1" value="hr2"/>
-                <element label="Facilities 1" sequence="2" value="facilities1"/>
-                <element label="Facilities 2" sequence="3" value="facilities2"/>
-                <element label="Legal 1" sequence="4" value="legal1"/>
-                <element label="Legal 2" sequence="5" value="legal2"/>
-                <element label="Other" sequence="6" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Local Travel" sequence="0" value="local"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Remote Travel" sequence="1" value="remote"/>
+                <element inactive="true" inactive_on_update="true" label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Overseas Travel" sequence="2" value="overseas"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="training" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Training Class" sequence="0" value="training"/>
+                <element inactive="true" inactive_on_update="true" label="Your Department Choice 1" sequence="0" value="your_choice1"/>
+                <element inactive_on_update="false" label="Certification Exam" sequence="1" value="certification"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 2" sequence="1" value="hr2"/>
+                <element inactive="true" inactive_on_update="true" label="Your Department Choice 2" sequence="1" value="your_choice2"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 1" sequence="2" value="facilities1"/>
+                <element inactive_on_update="false" label="Subscription" sequence="2" value="subscription"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 2" sequence="3" value="facilities2"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 1" sequence="4" value="legal1"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 2" sequence="5" value="legal2"/>
             </choice>
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
