@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Send an email to the Requested for to notify them of status</comment>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Needit Fulfillment Flow">2588fbb34f9ba30019502f9ca310c793</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 17:43:16</sys_created_on>
+        <sys_id>7988fbb34f9ba30019502f9ca310c7e7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7988fbb34f9ba30019502f9ca310c7e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 00:51:09</sys_updated_on>
+        <ui_id>c965f6ed-aa3e-4465-a3e0-10e88d4b37c0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7988fbb34f9ba30019502f9ca310c7e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7988fbb34f9ba30019502f9ca310c7e7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 17:43:16</sys_created_on>
+        <sys_id>3988fbb34f9ba30019502f9ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 17:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7988fbb34f9ba30019502f9ca310c7e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>7988fbb34f9ba30019502f9ca310c7e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 17:43:16</sys_created_on>
+        <sys_id>b588fbb34f9ba30019502f9ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 17:43:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="a0d6f0e9-857e-4276-9e5e-6fbfbdd73bd5" data-pillvalue="{{89d9ed0f-42ac-4454-bc1d-833482d86e39.record.u_requested_for}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="a0d6f0e9-857e-4276-9e5e-6fbfbdd73bd5" data-pillvalue="{{89d9ed0f-42ac-4454-bc1d-833482d86e39.record.u_requested_for}}"&gt;1➛NeedIt Record➛Requested for&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your training request for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="9f7967c0-0568-40e3-bc77-9adc14c035e0" data-pillvalue="{{Created_1.current.short_description}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="9f7967c0-0568-40e3-bc77-9adc14c035e0" data-pillvalue="{{Created_1.current.short_description}}"&gt;Trigger➛NeedIt Record➛Short description&lt;/span&gt;&lt;/span&gt; has been&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="fdeb1854-509b-463f-9e08-88090f5d3b15" data-pillvalue="{{80db7561-1378-4381-a19a-9482a33c0c77.approval_state}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="fdeb1854-509b-463f-9e08-88090f5d3b15" data-pillvalue="{{80db7561-1378-4381-a19a-9482a33c0c77.approval_state}}"&gt;2➛Approval State&lt;/span&gt;&lt;/span&gt;. Please contact your manager if you have any questions&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>7988fbb34f9ba30019502f9ca310c7e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 17:43:16</sys_created_on>
+        <sys_id>f188fbb34f9ba30019502f9ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 17:43:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>Training Request Update{{89d9ed0f-42ac-4454-bc1d-833482d86e39.record.short_description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>7988fbb34f9ba30019502f9ca310c7e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 17:43:16</sys_created_on>
+        <sys_id>3188fbb34f9ba30019502f9ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 17:43:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.u_requested_for}}</value>
+    </sys_element_mapping>
+</record_update>
