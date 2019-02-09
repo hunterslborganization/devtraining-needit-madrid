@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <availability>on_both</availability>
+        <active>true</active>
+        <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <category/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>NeedIt Training Request External</name>
+        <name>External Training Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -42,34 +42,32 @@
         <ordered_item_link/>
         <picture/>
         <post_insert_script/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2fa013304feb630019502f9ca310c7a9&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d3b7cac54fe3a30019502f9ca310c7d2&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
         <roles/>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[ gs.getEmail();
-
-]]></script>
-        <short_description>External Training Request</short_description>
+        <script/>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-08 17:23:06</sys_created_on>
-        <sys_id>2fa013304feb630019502f9ca310c7a9</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>NeedIt Training Request External</sys_name>
+        <sys_created_on>2019-02-09 06:44:27</sys_created_on>
+        <sys_id>d3b7cac54fe3a30019502f9ca310c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>External Training Request</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sc_cat_item_producer_2fa013304feb630019502f9ca310c7a9</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_d3b7cac54fe3a30019502f9ca310c7d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-09 06:37:35</sys_updated_on>
+        <sys_updated_on>2019-02-09 06:44:27</sys_updated_on>
         <table_name>x_58872_needit_needit</table_name>
         <template/>
         <type>item</type>
@@ -81,22 +79,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=2fa013304feb630019502f9ca310c7a9"/>
-    <fx_price action="delete_multiple" query="id=2fa013304feb630019502f9ca310c7a9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3b7cac54fe3a30019502f9ca310c7d2"/>
+    <fx_price action="delete_multiple" query="id=d3b7cac54fe3a30019502f9ca310c7d2"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>2fa013304feb630019502f9ca310c7a9</id>
+        <id>d3b7cac54fe3a30019502f9ca310c7d2</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-08 17:23:06</sys_created_on>
-        <sys_id>afa013304feb630019502f9ca310c7aa</sys_id>
+        <sys_created_on>2019-02-09 06:44:27</sys_created_on>
+        <sys_id>02180e094fe3a30019502f9ca310c7b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-08 17:23:06</sys_updated_on>
+        <sys_updated_on>2019-02-09 06:44:27</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
@@ -104,16 +102,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>2fa013304feb630019502f9ca310c7a9</id>
+        <id>d3b7cac54fe3a30019502f9ca310c7d2</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-08 17:23:06</sys_created_on>
-        <sys_id>eba013304feb630019502f9ca310c7ac</sys_id>
+        <sys_created_on>2019-02-09 06:44:27</sys_created_on>
+        <sys_id>4a180e094fe3a30019502f9ca310c7b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-08 17:23:06</sys_updated_on>
+        <sys_updated_on>2019-02-09 06:44:27</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
